@@ -36,7 +36,7 @@ class Wrapper extends React.Component {
     }
     
 
-    render () {
+    render ()  { 
         return (
             <React.Fragment>
                 <this.props.component users={this.state.users} 
